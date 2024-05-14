@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     div
+     {
+     display: inline-block;
+     margin-top: 100px;
+    margin-left: 10px;
+    animation-name: ball;
+    animation-duration: 2s;
+    animation: reverse;
+    animation-iteration-count: infinite;
+
+}
+
+    @keyframes ball{ form{ transform: translate Y(0px);}
+                     to{transform: (translate Y(30px));}
+     }
+    
+
+    
+        
+   .ball1{
+    height:50px;
+    width:50px;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: violet;
+    animation-name: ball1;
+    animation-duration:1.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ball1{form{transform:translateY(0px);}
+                to{transform:translateY(30px);}
+
+}
+   .ball2 {
+        height: 50px;
+        width:50px;
+        display: inline-block;
+        border-radius: 50px;
+        background-color: bisque;
+        animation-name: ball2;
+        animation-duration:1.4s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+    @keyframes ball2{form{transform:translateY(1px);}
+                to{transform: translateY(50px);}
+}
+
+   
+
+    
+   .ball3{
+    height: 50px;
+    width:50px;
+    display:inline-block;
+    border-radius: 50px;
+    background-color: orangered;
+    animation-name: ball3;
+    animation-duration: 1.2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes ball3{form{transform:translateY(0px);}
+                 to {transform:translateY(30px)}
+}
+   .ball4{
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
+    background-color: blue;
+    display: inline-block;
+    animation-duration: 1.4s;
+    animation-direction: alternate;
+    animation-name: ball4;
+    animation-iteration-count: infinite;
+   }
+   @keyframes ball4{form{transform:translateY(1px);}
+                     to{transform: translateY(50px);}
+                    }
+
+    </style>
+
+</head>
+<body>
+    <div>
+       <div class="ball1"></div>
+       <div class="ball2"></div>
+       <div class="ball3"></div>
+       <div class="ball4"></div>
+    </div>
+    
+</body>
+</html>

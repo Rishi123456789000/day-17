@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p{
+            margin-top: 150px;
+            margin-left: 20px;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            display: inline-block;
+            
+            
+        }
+        .a{
+            height: 40px;
+            width:20px;
+            animation-name:one;
+            animation-iteration-count: infinite;
+            background-color: black;
+            animation-duration: 0.5s;
+            position: absolute;
+            bottom: 20px;
+            left:40%;
+        }
+           
+        @keyframes one{
+            from{height: 150px;}
+            to{height: 100px;}
+        }
+        .b{
+            height: 40px;
+            width:20px;
+            position: absolute;
+             margin-left: 40px;
+              bottom: 20px;
+            left: 35%;
+            animation-name:two;
+            animation-iteration-count: infinite;
+            background-color: red;
+            animation-duration: 0.5s;
+           
+            
+        }
+        @keyframes two{
+            from{height:20px}
+            to{height:200px}
+        }
+        .c{
+            height: 40px;
+            width:20px;
+            animation-name:one;
+            animation-iteration-count: infinite;
+            background-color: orange;
+            animation-duration: 0.5s;
+            position: absolute;
+            bottom: 20px;
+            left:110%;
+        }
+        @keyframes three{
+            from{height:20px}
+                to{height:200px}}
+
+          .d{
+             height: 40px;
+            width:20px;
+            animation-duration: 0.5s;
+            position: absolute;
+            bottom: 20px;
+            left:140%;
+            animation-name:four;
+            animation-iteration-count: infinite;
+            background-color: red;
+
+       }
+       @keyframes four{
+            from{height:0px}
+                to{height:200px}}
+
+             .e{
+            height: 20px;
+            width:20px;
+            animation-name:five;
+            animation-iteration-count: infinite;
+            background-color: green;
+            animation-duration: 0.5s;
+            position: absolute;
+            bottom: 20px;
+            left:170%;
+        }
+           
+        @keyframes five{
+            from{height:150px;}
+            to{height: 100px;}
+            
+                }
+
+    </style>
+</head>
+<body>
+   <div>
+      <img src="https://i.pinimg.com/564x/a0/a1/dc/a0a1dc6c7d7938b91a4bb4afa45fd7a1.jpg" width="400" height="300">
+   </div>
+    <div>
+        <audio controls muted autoplay>
+            <source src="./[iSongs.info] 05 - Petta Paraak (Telugu).mp3">
+        </audio>
+    </div>
+    <div class="p">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+
+    </div>
+    
+</body>
+</html>
